@@ -1,0 +1,28 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.col-img{
+    top: -100px;
+}
+
+.index-h1{
+    display: inline-block;
+    background-color: #ad3b8a;
+}
+
+.main-mt{
+    margin-top: 5%;
+}
+
+.btn-light{
+    color: #ad3b8a;
+}
+
+.btn-light:hover,
+.btn-light:focus{
+    background-color: #ad3b8a;
+    color: #fff;
+    border-color: #ad3b8a;
+}

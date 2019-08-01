@@ -45,3 +45,16 @@ body {
 .footer-p{
     text-align: center;
 }
+
+.nav-link{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nav-link:hover,
+.nav-link:focus{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}

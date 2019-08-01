@@ -72,3 +72,11 @@ body {
 .about-summary{
     padding-top: 90px;
 }
+
+.progress-bar{
+    background-color: #ad3b8a;
+}
+
+.progress{
+    height: 10px;
+}

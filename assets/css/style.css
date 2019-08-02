@@ -88,3 +88,14 @@ body {
 .cert{
     color: #ad3b8a;
 }
+
+.cap-div{
+    text-align: center;
+}
+
+.contact-cap{
+    border:  5px solid #fff;
+    display: inline-block;
+    padding: 30px;
+    margin: 20px;
+}

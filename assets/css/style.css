@@ -108,3 +108,24 @@ body {
 .p-height{
     line-height: 1px;
 }
+
+.contact-a{
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+}
+
+.contact-a:focus,
+.contact-a:hover{
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+}
+
+.contact-social{
+    font-size: 20px;
+}
+
+.contact-socialname{
+    font-size: 18px;
+}

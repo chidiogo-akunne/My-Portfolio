@@ -87,27 +87,27 @@
                            </div>
                            <div class="col-sm-12 col-md-8">
                                <h3 class="mb-4">Send Me A Message</h3>
-                               <form>
+                               <form id="contactForm">
                                     <div class="form-row">
                                       <div class="form-group col-md-6">
                                         <label for="inputName">Name*</label>
-                                        <input type="text" class="form-control" placeholder="Name">
+                                        <input type="text" class="form-control" placeholder="Name" id="userName" required>
                                       </div>
                                       <div class="form-group col-md-6">
                                         <label for="inputEmail">Email*</label>
-                                        <input type="email" class="form-control" placeholder="Email">
+                                        <input type="email" class="form-control" placeholder="Email" id="userEmail" required>
                                       </div>
                                     </div>
                                     <div class="form-group">
                                       <label for="inputSubject">Subject*</label>
-                                      <input type="text" class="form-control" placeholder="Subject">
+                                      <input type="text" class="form-control" placeholder="Subject" id="userSubject" required>
                                     </div>
                                     <div class="form-group">
                                       <label for="inputMessage">Message*</label>
-                                      <textarea class="form-control" placeholder="Message" rows="3"></textarea>
+                                      <textarea class="form-control" placeholder="Message" rows="3" id="userMessage" required></textarea>
                                       </div>   
                                 
-                                    <a href="#" class="btn btn-light form-btn">Send A Message</a>
+                                    <a href="#" class="btn btn-light form-btn" id="contactButton">Send A Message</a>
                                   </form>
                            </div>
                        </div>
@@ -125,5 +125,6 @@
             <script src="assets/js/jquery-3.4.1.min.js"></script>
             <script src="assets/js/popper.min.js"></script>
             <script src="assets/js/bootstrap.min.js"></script>
+            <script src="assets/js/app.js"></script>
     </body>
 </html>

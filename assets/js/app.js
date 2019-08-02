@@ -1,14 +1,14 @@
-// $(document).ready(function(){
+$(document).ready(function(){
 
-//         //contact us
+        //contact us
 
-//   $('#contactButton').on('click', function(e) {
-//     let data = {
-//       name: $('#userName').val(),
-//       email: $('#userEmail').val(),
-//       subject: $('#userSubject').val(),
-//       message: $('#userMessage').val()
-//     }
+  $('#contactButton').on('click', function(e) {
+    let data = {
+      name: $('#userName').val(),
+      email: $('#userEmail').val(),
+      subject: $('#userSubject').val(),
+      message: $('#userMessage').val()
+    }
 //     createContact(data);
 //     $('#contactForm').trigger('reset');
 //     $('#contactForm').show();

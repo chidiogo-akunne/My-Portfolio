@@ -99,3 +99,12 @@ body {
     padding: 30px;
     margin: 20px;
 }
+
+.contact-icon{
+    font-size: 40px;
+    color: #ad3b8a;
+}
+
+.p-height{
+    line-height: 1px;
+}

@@ -9,11 +9,11 @@ $(document).ready(function(){
       subject: $('#userSubject').val(),
       message: $('#userMessage').val()
     }
-//     createContact(data);
-//     $('#contactForm').trigger('reset');
-//     $('#contactForm').show();
-//     e.preventDefault();
-//     })
+    createContact(data);
+    $('#contactForm').trigger('reset');
+    $('#contactForm').show();
+    e.preventDefault();
+    })
 //     function createContact(contactData) {
 //       $.ajax({
 //         url: 'http://localhost:3000/contact',

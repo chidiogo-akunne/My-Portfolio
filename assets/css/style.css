@@ -3,10 +3,13 @@ body {
     color: #fff;
 }
 
-.col-img{
+.my-img{
     top: -100px;
 }
 
+.i-col{
+    margin-top: 3rem;
+}
 .index-h1{
     display: inline-block;
     background-color: #ad3b8a;
@@ -143,4 +146,38 @@ body {
 
 .form-btn{
     float: right;
+}
+
+@media (max-width: 1280px){
+    .my-img{
+        top: 50px;
+        margin-bottom: 70px;
+    }
+    .i-footer{
+        margin-top: 30px;
+    }
+    .i-col{
+        margin-top: 1rem;
+    }
+    .index-h3{
+        margin-top: 2rem !important;
+    }
+    .img-fluid{
+        width: 100%;
+        height: auto;
+    }
+    .about-summary{
+        padding-top: 0;
+        padding: 0 20px;
+    }
+    .sum-h5{
+        padding-bottom: 20px;
+    }
+    .edu-section{
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+    }
+    .about-h2{
+        padding-bottom: 1rem !important;
+    }
 }

@@ -4,5 +4,5 @@ version: 2.1
   workflows:
     welcome:
       jobs:
-        -welcome/run
+        - welcome/run
     
